@@ -151,7 +151,8 @@ function front(x, y, z, p) {
           x.charAt(i - b) === '9' ||
           x.charAt(i - b) === '0' ||
           x.charAt(i - b) === '/' ||
-          x.charAt(i - b) === '.'
+          x.charAt(i - b) === '.' ||
+          x.charAt(i - b) === '-'
         ) {
           var othernumber = x.charAt(i - b) + othernumber;
           var b = b + 1;
