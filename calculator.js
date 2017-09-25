@@ -1,4 +1,4 @@
-//Algebra Calculator Version 1.3
+//Algebra Calculator Version 1.3.1
 var answerlist = []
 var input = prompt('Enter an equation');
 if (input === "ANSWERS") {
