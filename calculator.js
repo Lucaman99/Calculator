@@ -1,4 +1,5 @@
 //Algebra Calculator Version 1.3.1
+//I can't believe I did this in Javascript.....
 var answerlist = []
 var input = prompt('Enter an equation');
 if (input === "ANSWERS") {
